@@ -1,4 +1,4 @@
-# Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code into reusable and modular objects. In PHP, OOP allows you to create classes, which are blueprint templates for creating objects.
+# Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code into reusable and modular objects. In PHP, OOP allows you to create classes, which are blueprint templates for creating objects
 
 key concepts and features of OOP in PHP:
     Classes: A class is a user-defined data type that encapsulates data (properties) and behavior (methods) into a single unit. It serves as a blueprint for creating objects. For example, you can define a "Car" class with properties like "color" and "brand" and methods like "startEngine()" and "drive()".
@@ -18,4 +18,4 @@ key concepts and features of OOP in PHP:
         Private: The property or method can only be accessed from within the class that defines it.
         Protected: The property or method can be accessed from within the class and its subclasses.
 
-These are some fundamental concepts of OOP in PHP. Using OOP principles can help you write more organized, maintainable, and reusable code by promoting modularization and encapsulation.
+ These are some fundamental concepts of OOP in PHP. Using OOP principles can help you write more organized, maintainable, and reusable code by promoting modularization and encapsulation.
