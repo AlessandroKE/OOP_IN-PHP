@@ -5,6 +5,7 @@ class User{
     //All properties and methods are defined inside the class
 public $username;
 private $email;
+public $role = 'member';
 
 public function __construct($username, $email) {
         $this->username = $username;
@@ -33,6 +34,7 @@ public function setEmail($email)
 class AdminUser extends User {
 
     public $level;
+    public $role = 'admin';
     // You can add additional properties and methods specific to the AdminUser class here
     // This class inherits the properties and methods from the User class
 
@@ -42,10 +44,14 @@ class AdminUser extends User {
 }
 
 }
-//$sandro = new User("sandro", 'sandrokoome472@gmail.com');
+$sandro = new User("sandro", 'sandrokoome472@gmail.com');
 
 $kamau = new AdminUser('sandro', 'kamau@gmail.com', 'admin');
 
 echo $kamau->username ."<br>";
 echo $kamau->getEmail() ."<br>";
 echo $kamau->level ."<br>";
+
+
+echo $sandro->role . "<br>";
+echo $kamau->role . "<br>";
