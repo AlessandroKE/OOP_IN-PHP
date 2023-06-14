@@ -22,3 +22,4 @@ key concepts and features of OOP in PHP:
 
  Constructors in OOP
  Constructors in object-oriented programming (OOP) in PHP are special methods that are automatically called when an object is created from a class. Constructors are used to initialize the object's properties or perform any necessary setup operations.
+ Destructors in PHP are special methods that are automatically called when an object is destroyed or goes out of scope.  They are used to perform any necessary cleanup or finalization tasks before an object is destroyed.
