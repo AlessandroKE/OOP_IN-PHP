@@ -19,3 +19,6 @@ key concepts and features of OOP in PHP:
         Protected: The property or method can be accessed from within the class and its subclasses.
 
  These are some fundamental concepts of OOP in PHP. Using OOP principles can help you write more organized, maintainable, and reusable code by promoting modularization and encapsulation.
+
+ Constructors in OOP
+ Constructors in object-oriented programming (OOP) in PHP are special methods that are automatically called when an object is created from a class. Constructors are used to initialize the object's properties or perform any necessary setup operations.
