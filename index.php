@@ -21,11 +21,10 @@ public function getEmail() {
 
 //Setters
 
-
-
-
-
-
+public function setEmail()
+{
+    
+}
 
 // creating a method inside the class
 public function addFreind(){
