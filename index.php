@@ -21,9 +21,12 @@ public function getEmail() {
 
 //Setters
 
-public function setEmail()
+// Checking whether email is valid inorder to update
+public function setEmail($email)
 {
-    
+    if(strpos($email,'@') >-1) {
+        $this->email = $email;
+    }
 }
 
 // creating a method inside the class
@@ -36,8 +39,12 @@ public function addFreind(){
 //creting a new user and storing it in variable
 //creating a new instance of a class
 
+
+
 $sandro = new User('sandro', 'Sandrokoome472@gmail.com');
 $kamau = new User('kamau', 'Kamaumoses472@gmail.com');
+
+$sandro->setEmail('koomealessandro@gmail.com');
 //The -> arrow operator is used to access a property or method of an object. 
 
 
